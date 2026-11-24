@@ -1,0 +1,27 @@
+{
+  "firmware_max_age_days": 365,
+  "devices": [
+    {
+      "name": "lab-router-01",
+      "type": "router",
+      "firmware_date": "2024-05-01",
+      "wan_admin_enabled": true,
+      "ssh_root_login": true,
+      "ssh_password_auth": true
+    },
+    {
+      "name": "lab-firewall-01",
+      "type": "firewall",
+      "firmware_date": "2025-02-10",
+      "default_inbound_policy": "allow",
+      "wan_admin_enabled": false
+    },
+    {
+      "name": "lab-nas-01",
+      "type": "nas",
+      "firmware_date": "2025-01-15",
+      "smb_encryption": false,
+      "guest_access": true
+    }
+  ]
+}
