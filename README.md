@@ -7,7 +7,7 @@ An offline Python checker for a small network inventory export. It compares rout
 - Translating common hardening guidance into repeatable configuration checks
 - Reviewing network and endpoint settings using a structured JSON inventory
 - Producing evidence-based findings suitable for a remediation plan
-- Separating baseline policy from evaluation logic
+- Reporting consistent control IDs, severity, evidence, and remediation
 
 ## Quick start
 
